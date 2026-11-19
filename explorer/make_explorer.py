@@ -247,7 +247,7 @@ function render() {
   $("subtitle").textContent = mod
     ? `Hyperbolic volume of the complement of the trefoil and the canonical lift of each closed geodesic, for the ${total.toLocaleString()} geodesics with code word length up to ${L}. The smallest is ${s.vol[lo]} (${s.w[lo]}).`
     : `Hyperbolic volume of the canonical lift complement of each closed curve that fills the surface, for the ${total.toLocaleString()} curves with word length up to ${L} in a free basis of π₁(S). The smallest is ${s.vol[lo]} (${s.w[lo]}).${via ? ` The surface is uniformised ${via}.` : ""}`;
-  $("verified").textContent = mod ? "" : ", with hyperbolicity checked by an exact test of whether each curve fills the surface";
+  $("verified").textContent = mod ? "" : ", with hyperbolicity checked by an exact test of whether each curve fills the surface and every volume verified with interval arithmetic in SageMath";
   const fam = $("fam").checked && (Object.keys(s.families || {}).length || Object.keys(s.twists || {}).length);
   $("note").textContent = (L > s.fullUpTo ? `Note: every code word up to length ${s.fullUpTo} is shown; above that a random sample, together with the smallest and largest volume at each length. `
     : mod ? "" : "Note: each curve is counted once up to orientation; curves that do not fill the surface have non-hyperbolic complements and are not shown. ")

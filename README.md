@@ -18,6 +18,7 @@ For a closed geodesic γ on a hyperbolic surface S, the canonical lift γ̂ is t
 | [`modular_geodesics_L25.csv.gz`](https://github.com/jackmcdonnell011-cmd/canonical-lift-volumes/releases/download/v1.0/modular_geodesics_L25.csv.gz) (release v1.0, 52 MB) | One row per closed geodesic on the modular surface with code word length 2 to 25 (2,807,194 rows).<br>Columns: `word, word_length, trace, hyperbolic_length, volume`.<br>SHA-256 `70a64ed3661f2182e0cb48f75e3eadf2aa06c15d6af9f2a5a05a00b9aebe44e4` |
 | [`data/twist_parents.csv`](data/twist_parents.csv), [`data/twist_parents_summary.txt`](data/twist_parents_summary.txt) | The parent manifolds N of the twist families X^kY, X^kY², X^kY³ and the fillings of N that give the family members (the paper's table of parents). |
 | [`data/torus11_volumes_N11.csv.gz`](data/torus11_volumes_N11.csv.gz) | Once-punctured torus: one row per filling closed curve of word length ≤ 11 in the free basis a, b of π₁(S) (12,047 curves).<br>Gives the curve's surface word, its modular code word w and degree m (the curve is a lift of the geodesic of wᵐ), the trace and length on S, the volume and the checks. |
+| [`data/torus11_verified_N11.csv.gz`](data/torus11_verified_N11.csv.gz) | Once-punctured torus: the verified hyperbolic structure and verified volume interval (SageMath, `verify_sage.py`) for every manifold in the volume table; all 8,418 are verified. |
 | [`data/torus11_curves_N11.csv.gz`](data/torus11_curves_N11.csv.gz) | Once-punctured torus: every closed curve of word length ≤ 11, with whether it fills S (exact test). |
 | [`data/torus11_twist_family_B2Ak.csv`](data/torus11_twist_family_B2Ak.csv) | The twist family B²Aᵏ on the once-punctured torus, k = 1, …, 24. |
 
@@ -74,7 +75,7 @@ The curves that fill S are exactly those whose complement SnapPy finds hyperboli
 
 For two curves SnapPy found no Ghys map, so their manifolds were taken from the reversed curve (`reverse_rho.py`). The involution v ↦ −v of UT(S) gives an isometry between M_γ and M_γ⁻¹.
 
-`verify_sage.py` (run inside SageMath) recomputes each hyperbolic structure and volume with interval arithmetic. `twist_family.py` computes the family B²Aᵏ, and `explorer_json.py` writes the explorer's data from the results of `run_torus.sh`.
+`verify_sage.py` (run inside SageMath) recomputes each hyperbolic structure and volume with interval arithmetic; every torus volume in `data/` is verified in this way. `twist_family.py` computes the family B²Aᵏ, and `explorer_json.py` writes the explorer's data from the results of `run_torus.sh`.
 
 ```
 cd torus
