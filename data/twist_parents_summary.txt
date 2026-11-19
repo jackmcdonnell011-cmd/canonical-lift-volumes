@@ -1,0 +1,35 @@
+===== X^kY =====
+N (drilled from k=10): 3 cusps, volume 5.3334895669, all tetrahedra positively oriented, census identification [s776(0,0)(0,0)(0,0), 6^3_1(0,0)(0,0)(0,0), L6a5(0,0)(0,0)(0,0)]
+  drilling k=7 gives an isometric manifold: True
+  drilling k=14 gives an isometric manifold: True
+  N(mu_K, mu_T) = S^3 minus c has fundamental group Z: True
+  Seifert longitude of c: (0, 1)
+  H_1(S^3_0(c) minus K) = Z   (Z means c links K once)
+  H_1(S^3_0(c) minus T) = Z   (Z means c links T once)
+  fillings that are family members: n=-10 -> k=20, n=-9 -> k=19, n=-8 -> k=18, n=-7 -> k=17, n=-6 -> k=16, n=-5 -> k=15, n=-4 -> k=14, n=-3 -> k=13, n=-2 -> k=12, n=-1 -> k=11, n=0 -> k=10, n=1 -> k=9, n=2 -> k=8, n=3 -> k=7, n=4 -> k=6, n=5 -> k=5, n=6 -> k=4, n=7 -> k=3, n=8 -> k=2, n=9 -> k=1
+  members k=1..20 reproduced: 20; missing: []
+  volumes: k=1 3.6639, k=10 5.2367, k=20 5.3054, vol(N) 5.3335; increasing in k: True
+
+===== X^kY^2 =====
+N (drilled from k=10): 3 cusps, volume 8.9293178231, all tetrahedra positively oriented, census identification [o9_44219(0,0)(0,0)(0,0), 10^3_12(0,0)(0,0)(0,0), L10n72(0,0)(0,0)(0,0)]
+  drilling k=7 gives an isometric manifold: True
+  drilling k=14 gives an isometric manifold: True
+  N(mu_K, mu_T) = S^3 minus c has fundamental group Z: True
+  Seifert longitude of c: (-1, 1)
+  H_1(S^3_0(c) minus K) = Z   (Z means c links K once)
+  H_1(S^3_0(c) minus T) = Z   (Z means c links T once)
+  fillings that are family members: n=-10 -> k=20, n=-9 -> k=19, n=-8 -> k=18, n=-7 -> k=17, n=-6 -> k=16, n=-5 -> k=15, n=-4 -> k=14, n=-3 -> k=13, n=-2 -> k=12, n=-1 -> k=11, n=0 -> k=10, n=1 -> k=9, n=2 -> k=8, n=3 -> k=7, n=4 -> k=6, n=5 -> k=5, n=6 -> k=4, n=7 -> k=3, n=8 -> k=2, n=9 -> k=1
+  members k=1..20 reproduced: 20; missing: []
+  volumes: k=1 4.4153, k=10 8.7398, k=20 8.8839, vol(N) 8.9293; increasing in k: True
+
+===== X^kY^3 =====
+N (drilled from k=10): 3 cusps, volume 10.4392551552, all tetrahedra positively oriented, census identification [L13n7616(0,0)(0,0)(0,0)]
+  drilling k=7 gives an isometric manifold: True
+  drilling k=14 gives an isometric manifold: True
+  N(mu_K, mu_T) = S^3 minus c has fundamental group Z: True
+  Seifert longitude of c: (0, 1)
+  H_1(S^3_0(c) minus K) = Z   (Z means c links K once)
+  H_1(S^3_0(c) minus T) = Z   (Z means c links T once)
+  fillings that are family members: n=-10 -> k=20, n=-9 -> k=19, n=-8 -> k=18, n=-7 -> k=17, n=-6 -> k=16, n=-5 -> k=15, n=-4 -> k=14, n=-3 -> k=13, n=-2 -> k=12, n=-1 -> k=11, n=0 -> k=10, n=1 -> k=9, n=2 -> k=8, n=3 -> k=7, n=4 -> k=6, n=5 -> k=5, n=6 -> k=4, n=7 -> k=3, n=8 -> k=2, n=9 -> k=1
+  members k=1..20 reproduced: 20; missing: []
+  volumes: k=1 4.7517, k=10 10.3020, k=20 10.4064, vol(N) 10.4393; increasing in k: True

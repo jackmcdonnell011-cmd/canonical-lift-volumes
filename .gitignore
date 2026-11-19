@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+# outputs of the scripts
+modular_geodesics_L25.csv.gz
+modular/figures/
+modular/volumes_L*.csv
+torus/work_*/
+torus/*_reversed*/
+torus/rho_cache/
+torus/census_N*.csv
+torus/words_N*.txt
+torus/maxL_N*.txt
+torus/rho_retry_N*.txt
+torus/results_N*
+torus/run_N*.log

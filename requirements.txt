@@ -1,0 +1,8 @@
+snappy>=3.1
+spherogram>=2.2
+numpy
+scipy
+pandas
+matplotlib
+mpmath
+cypari
